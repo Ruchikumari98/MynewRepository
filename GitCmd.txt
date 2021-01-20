@@ -1,0 +1,20 @@
+//initializes empty git rep.
+git init
+
+//version
+git --version
+ //files from current directory gets added to staging area 
+git add.
+
+//to get the status
+git status
+
+//files from stagging area to local  rep.
+git commit -m "First version created(comment)"
+
+//to making the identity known
+git config --global user.name "Ruchikumari98"
+git config --global user.email "iamruchikumari17@gmail.com"
+
+//to push the changes from local rep to remote rep
+git remote add origin https://github.com/Ruchikumari98/MynewRepository
